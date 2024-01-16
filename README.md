@@ -1,6 +1,4 @@
-#Verisart Take Home Test
-
-## Getting Started
+## Verisart Take Home Test
 
 First, run the development server:
 
