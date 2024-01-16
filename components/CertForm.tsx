@@ -31,7 +31,7 @@ const formSchema = z.object({
 	id: z.number(),
 });
 
-export default function CertForm() {
+export default function CertForm({ close }: any) {
 	const context = React.useContext(CertificateContext);
 
 	if (!context) {
@@ -61,6 +61,7 @@ export default function CertForm() {
 			year: convertYearToNumber(values.year),
 		});
 		form.reset();
+		close();
 	}
 
 	return (

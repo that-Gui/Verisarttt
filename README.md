@@ -19,7 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - I used the Shadcn UI library to save time on building the UI components, but instead did a lot of experiementing with their new components and learning how to use them.
 - Missing responsive Card components
 - Missing toast notificaitons for adding and removing certificates
-- Missing close action on form submit
 - BUG: zod form validation error, had to use a workaround to get the form to submit
 - Resizable component, should be used to ilustrate user certificate images but also access them.
 
